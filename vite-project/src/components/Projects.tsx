@@ -20,7 +20,7 @@ const Projects = () => {
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ad placeat aliquam ullam nisi explicabo corrupti.",
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ad placeat aliquam ullam nisi explicabo corrupti.",
             ],
-            technologies: ["React", "NodeJS", "MongoDB", "ExpressJS"],
+            technologies: ["React", "NodeJS", "MongoDB", "ExpressJS", "Mongoose", "Typescript", "Redux Toolkit", "Websocket", "JSON Web Tokens"]
         }
     ]
 
@@ -38,7 +38,7 @@ const Projects = () => {
                                     <button>Site</button>
                                     <button>Code</button>
                                     <h3 className="text-[20px]">Technologies</h3>
-                                    <ul>
+                                    <ul className="flex">
                                         {
                                             project.technologies.map( (tech, idx) => {
                                                 return (

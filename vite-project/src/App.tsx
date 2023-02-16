@@ -8,6 +8,7 @@ import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 
+
 function App() {
 
 
@@ -17,8 +18,8 @@ function App() {
       <div className="flex flex-col justify-center w-[1065px]">
         <Home/>
         <Skills/>
-        <Projects/>
         <Technologies/>
+        <Projects/>
       </div>
       <Contact/>
     </div>

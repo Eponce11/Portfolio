@@ -33,7 +33,7 @@ export const projects: Array<Project> = [
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ad placeat aliquam ullam nisi explicabo corrupti.",
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ad placeat aliquam ullam nisi explicabo corrupti.",
         ],
-        technologies: ["React", "NodeJS", "MongoDB", "ExpressJS", "Mongoose", "Typescript", "Redux Toolkit", "Websocket", "JSON Web Tokens"]
+        technologies: [".NET Core MVC", "Nugget Package Manager", "Entity Framework Core", "MySQL", "Wallstreetbets API", "Razor cshtml", "Jquery", "Stock API"]
     },
     {
         title: "MyBudget",

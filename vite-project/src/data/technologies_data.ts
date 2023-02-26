@@ -150,11 +150,3 @@ export const tests: Array<Technology> = [
         img: Jest
     }
 ]
-
-
-
-
-
-
-
-

@@ -7,7 +7,7 @@ const Projects = () => {
 
 
     return (
-        <div>
+        <div className="pb-20">
             <h1 className="text-[48px] border-b-2">Projects</h1>
             {
                 projects.map( (project, idx) => {

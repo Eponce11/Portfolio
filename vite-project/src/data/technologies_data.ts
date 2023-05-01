@@ -157,11 +157,3 @@ export const tests: Array<Technology> = [
         img: Vitest
     }
 ]
-
-
-
-
-
-
-
-

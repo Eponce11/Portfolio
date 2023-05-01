@@ -11,8 +11,8 @@ interface Skill {
 
 export const skills: Array<Skill> = [
     {
-        title: "Full Stack Software Developer",
-        body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quas necessitatibus, obcaecati officia qui minima. Voluptate ullam at quisquam. Repellat dicta ipsum inventore perspiciatis ratione dolore recusandae architecto tempore praesentium.",
+        title: "Coding Bootcamp Graduate",
+        body: "Coding Dojo Software Development Bootcamp Allumni. 14 Weeks, 2 Weeks Web Fundamentals, 4 Weeks of Python Full Stack Development with Flask Framework and MySQL database. 4 Weeks of MERN Development MongDB, Express.js, React, Node.js. 4 Weeks of .Net Core Development. 8 hour days with more work after class, coding average 50 hours per week",
         img: Code
     },
     {
@@ -22,7 +22,7 @@ export const skills: Array<Skill> = [
     },
     {
         title: "Agile Methodology",
-        body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quas necessitatibus, obcaecati officia qui minima. Voluptate ullam at quisquam. Repellat dicta ipsum inventore perspiciatis ratione dolore recusandae architecto tempore praesentium.",
+        body: "Working with other developers following the Agile Methodology. ",
         img: Agile
     }
 ]

@@ -103,7 +103,7 @@ const Technologies = () => {
                             tests.map( (test, idx) => {
                                 return (
                                     <div key={idx} className="flex flex-col items-center">
-                                        <img src={test.img} alt={test.name} />
+                                        <img className="w-[60px] h-[60px]" src={test.img} alt={test.name} />
                                         <p className="text-[20px]">{test.name}</p>
                                     </div>
                                 )

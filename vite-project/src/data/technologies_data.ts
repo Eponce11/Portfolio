@@ -19,6 +19,8 @@ import Tailwind from "../static/technologies/tailwind.svg"
 import Postman from "../static/technologies/postman.png"
 import Figma from "../static/technologies/figma.svg"
 import Vscode from "../static/technologies/vscode.svg"
+import Vite from "../static/technologies/vite.png"
+import Docker from "../static/technologies/docker.svg"
 
 import Mysql from "../static/technologies/mysql.svg"
 import Mongodb from "../static/technologies/mongodb.svg"
@@ -27,6 +29,7 @@ import Git from "../static/technologies/git.svg"
 import Github from "../static/technologies/github.svg"
 
 import Jest from "../static/technologies/jest.svg"
+import Vitest from "../static/technologies/vitest.png"
 
 interface Technology {
     name: string,
@@ -101,6 +104,14 @@ export const frameworks: Array<Technology> = [
 
 export const others: Array<Technology> = [
     {
+        name: "Docker",
+        img: Docker
+    },
+    {
+        name: "Vite",
+        img: Vite
+    },
+    {
         name: "Postman",
         img: Postman
     },
@@ -111,14 +122,6 @@ export const others: Array<Technology> = [
     {
         name: "VSCode",
         img: Vscode
-    },
-    {
-        name: "VSCode",
-        img: Html
-    },
-    {
-        name: "VSCode",
-        img: Html
     }
 ]
 
@@ -148,6 +151,10 @@ export const tests: Array<Technology> = [
     {
         name: "Jest",
         img: Jest
+    },
+    {
+        name: "Vitest",
+        img: Vitest
     }
 ]
 
